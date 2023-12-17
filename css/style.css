@@ -1,0 +1,227 @@
+/* Estrutura do site */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+/* Barra de navegação */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 30px;
+    background: #b10033;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    display: block;
+    font-size: 0.9em;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+
+}
+
+#topo ul .selecao a {
+    color: #fff;
+    background-color: #DE003E;
+    cursor: text;
+}
+
+/* Formatando as tres areas */
+#conteudo {
+    margin-top: 60px;
+    background-color: grey;
+}
+
+#lateral {
+    width: 180px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#primario {
+    width: 270px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#uma-coluna #primario {
+    width: 750px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#secundario {
+    width: 270px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+/* formatando a caixa */
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f4f4f4 url(../imagens/fundo-caixa.png);
+}
+
+h2 {
+    font-size: 1em;
+    background-color: #294C71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/* formatar menus laterais */
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    color: #a1a1a1;
+    background: url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+/* formatando formularios */
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    font-size: 0.9em;
+    padding: 5px;
+    width: 125px;
+    background-color: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+
+/* formatando imagens */
+img {
+    border: 2px solid #dfdfdf;
+}
+
+/* formatando cabecalhos */
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background-color: #B10333;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background-color: #de003e;
+
+}
+
+/* Formatando lista de noticias */
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+#lista-noticias li a {
+    text-decoration: none;
+    font-size: 0.8em;  
+}
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+    
+}
+#lista-noticias li a h3 {
+    color: #6F9AC8;
+    font-size: 0.9em;
+}
+#lista-noticias li a p {
+    color: #000;
+    font-size: 0.8em;  
+}
+#lista-noticias li:hover {
+   background-color: #eee; 
+}
+
+#rodape {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background-color: #294C71;
+}
+
+.colorir {
+    color: #B10333;
+}
